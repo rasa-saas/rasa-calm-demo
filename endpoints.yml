@@ -94,4 +94,4 @@ model_groups:
   - id: openai-embeddings
     models:
       - provider: openai
-        model: text-embedding-3-large
+        model: ${model}
