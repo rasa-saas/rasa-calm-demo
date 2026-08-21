@@ -29,7 +29,7 @@ pipeline:
 - name: CompactLLMCommandGenerator
   minimize_num_calls: False
   llm:
-    model_group: ${model_group}
+    model_group: openai-direct-gpt-4o
 
 policies:
 - name: RulePolicy
